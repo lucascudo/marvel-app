@@ -1,0 +1,30 @@
+body {
+  background-color: cornflowerblue;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.title {
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+}
+
+#comics-container {
+  text-align: center;
+}
+
+#details-text {
+  background-color: aliceblue;
+}
+
+#details-container {
+  margin-top: 20px;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+
+
+

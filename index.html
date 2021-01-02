@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Marvel App</title>
+  <meta name="description" content="Marvel App - Academia de Código's last challenge">
+  <meta name="author" content="renataaline">
+  <meta name="author" content="lucascudo">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <header class="container">
+    <div class="row">
+      <h1 class="title">MARVEL APP</h1>
+    </div>
+    
+  </header>
+
+  <section class="container">
+    <div id="comics-container">
+      <div class="row">
+        <input id="search" class="form-control" placeholder="SEARCH STORY..."/>
+      </div>
+      <div id="comics" class="row"></div>
+    </div>
+    <div id="details-container" class="row d-none">
+      <div class="row">
+        <div id="details-img" class="col-6"></div>
+        <div id="details-text" class="col-6">
+          <h4 id="details-title"></h4>
+          <p>Years: <span id="details-years"></span> </p>
+          <p>Sinopse: <span id="details-description"></span> </p>
+        </div>
+      </div>
+      <div class="row">
+        <button id="details-back" type="button" class="btn btn-dark">back</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
